@@ -11,7 +11,7 @@ Follow these steps to use the converter:
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/rahul-kore/CSV_to_JSON.git
 ```
 
 ### Step 2: Install Dependencies
@@ -26,16 +26,14 @@ pip install pandas
 
 ### Step 3: Prepare Your Data
 
-* Place your CSV and Excel files in the `resources` folder within the project directory. Each file will be converted to JSON format.
-
-* please remove the sample CSVs and Excel files ( `Employee Sample Data.csv` , `Financials Sample Data.xlsx`)before adding yours .
+* Place your CSV and Excel files in the `resources` folder within the project directory(add one if not available). Each file will be converted to JSON format.
 
 ### Step 4: Run the Converter
 
 Run the converter script by executing the following command in your terminal or command prompt:
 
 ```bash
-python converter.py
+python formater.py
 ```
 
 ### Follow the prompts to enter the URL for each file (optional). Press Enter to skip if no URL is available.
